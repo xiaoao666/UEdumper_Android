@@ -4,4 +4,4 @@
 * [Dumper-7](https://github.com/Encryqed/Dumper-7)
 * [UEDumper](https://github.com/Spuckwaffel/UEDumper)
 * [AndUEDumper](https://github.com/MJx0/AndUEDumper)
-* [Android-MemoryDebug-Tools]([https://github.com/MJx0/AndUEDumper](https://github.com/oobbb/Android-MemoryDebug-Tools))
+* [Android-MemoryDebug-Tools](https://github.com/oobbb/Android-MemoryDebug-Tools)

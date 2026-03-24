@@ -13,10 +13,16 @@
 
 
 
-
 //可执行文件的主函数
 int main() {
+    //输出目录
+    DumpFnamePath = "/sdcard/Download/Name.txt";
+    DumpUObjectDumpPath = "/sdcard/Download/UObject.txt";
+    DumpPath = "/sdcard/Download/Dump.cpp";
     mem.setPackageName("com.xxx.xxx");
+    offsets.GName_offset = 0xD9A4B40;
+    offsets.GUObjectArray_offset = 0xD9C06B8;
+    offsets.GWorld_offset = 0xDF3A198;
     offsets.UE_base = mem.getModuleBase("libUE4.so");
     printf("UE_base: %p\n", (void*)offsets.UE_base);
     offsets.GName = offsets.UE_base + offsets.GName_offset;

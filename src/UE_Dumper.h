@@ -1,8 +1,10 @@
 #pragma once
 
-string DumpFnamePath = "/sdcard/Download/Name.txt";
-string DumpUObjectDumpPath = "/sdcard/Download/UObject.txt";
-string DumpPath = "/sdcard/Download/Dump.cpp";
+#include <string>
+
+std::string DumpFnamePath;
+std::string DumpUObjectDumpPath;
+std::string DumpPath;
 
 
 void DumpFNames(){
